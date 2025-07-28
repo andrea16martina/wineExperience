@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+node_modules/
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Env
+.env

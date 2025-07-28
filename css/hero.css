@@ -1,0 +1,27 @@
+/* =============================
+   Hero Component Styles
+   ============================= */
+
+.hero {
+  width: 100%;
+  background: #f7f4ec;
+  text-align: center;
+  margin: 0;
+  padding: 10rem 0 3.5rem 0;
+}
+
+.hero__title {
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 300;
+  margin: 0 0 3.2rem 0;
+  color: #222;
+  letter-spacing: 0.01em;
+}
+
+.hero__subtitle {
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  color: #444;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+}

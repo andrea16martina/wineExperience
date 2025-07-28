@@ -1,0 +1,153 @@
+/* =============================
+   Responsive Design - Card Grid
+   ============================= */
+@media (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+/* =============================
+   Responsive Design - Special Card
+   ============================= */
+@media (max-width: 900px) {
+  .special-card {
+    flex-direction: column;
+    min-height: 0;
+    height: auto;
+    width: 100%;
+    margin: 1.2rem 0 2.5rem 0;
+    box-sizing: border-box;
+  }
+  .special-card__img-wrapper {
+    flex: none;
+    width: 100%;
+    aspect-ratio: 16/10;
+    max-height: 18rem;
+    height: auto;
+    min-height: 10rem;
+  }
+  .special-card__info {
+    flex: 1 1 auto;
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 600px) {
+  .special-card {
+    flex-direction: column;
+    min-height: 0;
+    margin: 0.7rem 0 1.5rem 0;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .special-card__img-wrapper {
+    flex: none;
+    width: 100%;
+    aspect-ratio: 16/10;
+    max-height: 10rem;
+    height: auto;
+    min-height: 7rem;
+  }
+  .special-card__info {
+    flex: 1 1 auto;
+    width: 100%;
+    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    box-sizing: border-box;
+  }
+  .special-card__title {
+    font-size: 1.15rem;
+  }
+  .special-card__desc {
+    font-size: 0.98rem;
+  }
+  .special-card__price {
+    font-size: 0.98rem;
+  }
+  .special-card__vat {
+    font-size: 0.9rem;
+  }
+  .special-card__btn {
+    font-size: 0.98rem;
+  }
+}
+
+/* =============================
+   Responsive Design - Hero Section
+   ============================= */
+@media (max-width: 600px) {
+  .hero {
+    padding: 2rem 0 1.2rem 0;
+  }
+  .hero__title {
+    font-size: 1.5rem;
+  }
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* =============================
+   Responsive Design - Navbar
+   ============================= */
+@media (max-width: 900px) {
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 4rem;
+  }
+  .navbar__left, .navbar__right {
+    gap: 1rem;
+  }
+  .navbar__logo {
+    height: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .navbar {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .navbar__content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.7rem;
+  }
+  .navbar__left, .navbar__center, .navbar__right {
+    justify-content: center;
+    margin: 0.2rem 0;
+    gap: 0.7rem;
+  }
+  .navbar__center {
+    min-width: 0;
+    margin: 0.4rem 0;
+  }
+  .navbar__logo {
+    position: static;
+    transform: none;
+    height: 1.7rem;
+    margin: 0 auto;
+    display: block;
+  }
+}

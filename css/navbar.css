@@ -1,0 +1,82 @@
+/* =============================
+   Navbar Component Styles
+   ============================= */
+
+.navbar {
+  background: #fff;
+  padding: 1.6rem 4.2rem 1.2rem 4.2rem;
+  box-sizing: border-box;
+  height: 4.5rem;
+}
+
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.navbar__left,
+.navbar__right {
+  display: flex;
+  gap: 2.2rem;
+  align-items: center;
+}
+
+.navbar__left a,
+.navbar__right a {
+  color: #222;
+  text-decoration: none;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 0.18rem;
+  transition: color 0.15s;
+}
+
+.navbar__left a:hover,
+.navbar__right a:hover,
+.navbar__select:hover {
+  color: black;
+}
+
+.navbar__select {
+  color: #222;
+  background: none;
+  border: none;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 0.18rem;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 3.5rem;
+}
+
+.navbar__logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 2.9rem;
+}
+
+.icon-caret-down {
+  width: 1em;
+  height: 1em;
+  stroke: #888;
+  vertical-align: middle;
+}
+
+.navbar__icon {
+  display: inline-flex;
+  align-items: center;
+}
