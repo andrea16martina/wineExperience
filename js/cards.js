@@ -3,7 +3,7 @@
 
 const cardData = [
     {
-        img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        img: "assets/img/3wines.png",
         duration: "100’",
         title: "TOP WINES EXPERIENCE",
         desc: "Degustazione di 5 vini di alta qualità accompagnati da un tagliere della gastronomia locale e visita alla cantina e barricaia",
@@ -12,7 +12,7 @@ const cardData = [
         icons: ["food"]
     },
     {
-        img: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80",
+        img: "assets/img/5wines.png",
         duration: "120’",
         title: "CÔTEAU LA TOUR EXPERIENCE",
         desc: "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
@@ -21,7 +21,7 @@ const cardData = [
         icons: ["food"]
     },
     {
-        img: "https://images.unsplash.com/photo-1465101178521-c1a9136a3c5a?auto=format&fit=crop&w=800&q=80",
+        img: "assets/img/wineandcheese.png",
         duration: "100’",
         title: "WINEMAKER’S EXPERIENCE",
         desc: "Scopri il mondo, raccontato dal nostro enologo Raffaele, dai vigneti alla cantina.",
@@ -30,7 +30,7 @@ const cardData = [
         icons: ["food"]
     },
     {
-        img: "https://images.unsplash.com/photo-1514361892635-cebb9a1b2d8e?auto=format&fit=crop&w=600&q=80",
+        img: "assets/img/topwines.png",
         duration: "60’",
         title: "3 WINES EXPERIENCE",
         desc: "Degustazione di tre vini al Rifugio del Vino e visita alla cantina e alla cantina",
@@ -39,7 +39,7 @@ const cardData = [
         icons: []
     },
     {
-        img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+        img: "assets/img/latour.png",
         duration: "90’",
         title: "5 WINES EXPERIENCE",
         desc: "Degustazione di 5 vini del territorio presso il rifugio dei vini in cantina e barriccia",
@@ -48,7 +48,7 @@ const cardData = [
         icons: []
     },
     {
-        img: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80",
+        img: "assets/img/winemakers.png",
         duration: "90’",
         title: "WINE AND CHEESE EXPERIENCE",
         desc: "Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita alla cantina e barriccia",
@@ -57,7 +57,7 @@ const cardData = [
         icons: ["food"]
     },
     {
-        img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+        img: "assets/img/latourex.png",
         duration: "90’",
         title: "CÔTEAU LA TOUR EXPERIENCE",
         desc: "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
