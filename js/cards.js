@@ -113,7 +113,7 @@ function renderCards() {
         <div class="card__price-row">
           <div>
             <span class="card__price-label">PRICE</span>
-            <span class="card__price"><b>&euro;${card.price} per person</b></span>
+            <span class="card__price"><b>&euro;${card.price.toLocaleString('it-IT',{minimumFractionDigits: 2})} per persona</b></span>
           </div>
           <span class="card__vat">${card.vat}</span>
         </div>
