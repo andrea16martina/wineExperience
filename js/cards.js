@@ -130,7 +130,7 @@ function renderCards() {
         <div class="special-card__price-row">
           <div>
             <span class="special-card__price-label">PREZZO</span>
-            <span class="special-card__price"><b>&euro;${specialCard.price.toLocaleString('it-IT', {minimumFractionDigits:2})} a persona</b></span>
+            <span class="special-card__price"><b>A partire da &euro;${specialCard.price.toLocaleString('it-IT', {minimumFractionDigits:2})}</b></span>
           </div>
           <span class="special-card__vat">${specialCard.vat}</span>
         </div>
