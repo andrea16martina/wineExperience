@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:,">
   <title>Wine Experience</title>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/navbar.css">
@@ -12,13 +13,12 @@
 </head>
 <body>
   <!--
-    Modular structure: components are split into separate files for clarity and maintainability.
-    In a pure HTML/CSS/JS project (without build tools), components like Navbar are manually included here.
-    See /components/Navbar.html for the source of this section.
-    
-    Accessibility: The main navigation uses semantic <nav> and aria-label for screen readers.
-    All icons use aria-hidden where appropriate, and the language icon has an aria-label.
+    Static version: all HTML code for the components is included directly here.
+    If you want to switch to the Web Components version, uncomment the <navbar-component>, <hero-component>, etc.
+    and delete the copied HTML code below.
   -->
+
+  <!-- Static Navbar -->
     <header class="navbar">
     <nav class="navbar__content" aria-label="Main navigation">
       <div class="navbar__left">
@@ -63,17 +63,37 @@
       </div>
     </nav>
   </header>
-  <!-- Hero section: main call-to-action and subtitle -->
-  <!-- See /components/Hero.html for the source of this section -->
+
+  <!-- Static Hero -->
+<section class="hero">
+  <h1 class="hero__title">Prenota subito l'esperienza più adatta a te!</h1>
+  <h2 class="hero__subtitle">Ti aspettiamo per farti scoprire il mondo, raccontato dai nostri vini e dalla nostra storia.</h2>
+</section>
+
+  <!-- Card grid: will be populated dynamically by JS -->
   <main>
-    <section class="hero">
-      <h1 class="hero__title">Prenota subito l'esperienza più adatta a te!</h1>
-      <p class="hero__subtitle">Ti aspettiamo per farti scoprire il mondo, raccontato dai nostri vini e dalla nostra storia.</p>
-    </section>
-  <!-- Card grid: dynamically rendered via JS -->
-  <!-- See /components/Card.html for the card template -->
-  <section class="card-grid"></section>
+    <section class="card-grid"></section>
   </main>
+
+  <!--
+    Web Components version:
+    Uncomment the lines below and delete the HTML code above to use Web Components.
+    <navbar-component></navbar-component>
+    <main>
+      <hero-component></hero-component>
+      <section class="card-grid"></section>
+    </main>
+  -->
 </body>
 <script src="js/cards.js"></script>
+<!-- 
+  To enable custom Web Components (navbar-component, hero-component, etc.),
+  uncomment the scripts below. These scripts register the custom components
+  via JavaScript. If you do not want to use Web Components, leave these scripts commented.
+-->
+<!--
+<script type="module" src="js/navbar.js"></script>
+<script type="module" src="js/hero.js"></script>
+<script type="module" src="js/card.js"></script>
+-->
 </html>
