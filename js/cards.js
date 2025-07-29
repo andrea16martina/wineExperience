@@ -15,33 +15,6 @@
 
 const cardData = [
     {
-        img: "assets/img/3wines.png",
-        duration: "100’",
-        title: "TOP WINES EXPERIENCE",
-        desc: "Degustazione di 5 vini di alta qualità accompagnati da un tagliere della gastronomia locale e visita alla cantina e barricaia",
-        price: 65.00,
-        vat: "IVA INCLUSA",
-        icons: ["food"]
-    },
-    {
-        img: "assets/img/5wines.png",
-        duration: "120’",
-        title: "CÔTEAU LA TOUR EXPERIENCE",
-        desc: "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
-        price: 75.00,
-        vat: "IVA INCLUSA",
-        icons: ["food"]
-    },
-    {
-        img: "assets/img/wineandcheese.png",
-        duration: "100’",
-        title: "WINEMAKER’S EXPERIENCE",
-        desc: "Scopri il mondo, raccontato dal nostro enologo Raffaele, dai vigneti alla cantina.",
-        price: 90.00,
-        vat: "IVA INCLUSA",
-        icons: ["food"]
-    },
-    {
         img: "assets/img/topwines.png",
         duration: "60’",
         title: "3 WINES EXPERIENCE",
@@ -76,6 +49,32 @@ const cardData = [
         price: 346.00,
         vat: "IVA INCLUSA",
         icons: ["food", "lotus"]
+    },   {
+        img: "assets/img/3wines.png",
+        duration: "100’",
+        title: "TOP WINES EXPERIENCE",
+        desc: "Degustazione di 5 vini di alta qualità accompagnati da un tagliere della gastronomia locale e visita alla cantina e barricaia",
+        price: 65.00,
+        vat: "IVA INCLUSA",
+        icons: ["food"]
+    },
+    {
+        img: "assets/img/5wines.png",
+        duration: "120’",
+        title: "CÔTEAU LA TOUR EXPERIENCE",
+        desc: "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
+        price: 75.00,
+        vat: "IVA INCLUSA",
+        icons: ["food"]
+    },
+    {
+        img: "assets/img/wineandcheese.png",
+        duration: "100’",
+        title: "WINEMAKER’S EXPERIENCE",
+        desc: "Scopri il mondo, raccontato dal nostro enologo Raffaele, dai vigneti alla cantina.",
+        price: 90.00,
+        vat: "IVA INCLUSA",
+        icons: ["food"]
     }
 ];
 const maxPrice = Math.max(...cardData.map(card => card.price));
