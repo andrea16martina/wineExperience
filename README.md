@@ -19,7 +19,7 @@ Il progetto è organizzato in modo modulare e scalabile:
 - I file CSS sono modulari e separati per componente e responsività.
 - I file JS sono dedicati ai Web Components e alla logica di rendering.
 
-Numerosi commenti all’interno dei file HTML e JS guidano la comprensione della struttura e la transizione tra modalità statica e modulare.
+I commenti all’interno dei file HTML e JS guidano la comprensione della struttura e la transizione tra modalità statica e modulare.
 
 ---
 
@@ -69,4 +69,3 @@ Tutto il CSS è stato accuratamente modularizzato in file dedicati (`css/navbar.
 - Tutti i commenti interni al codice sono scritti in inglese, in linea con le best practice internazionali per progetti tecnici e per facilitare la collaborazione in team eterogenei o futuri sviluppi open source.
 - Il sito è statico, portabile e compatibile con qualsiasi browser moderno.
 - Per modifiche o estensioni, aggiorna direttamente il markup in `index.html` e/o i file CSS dedicati.
-- Il progetto rispetta tutti i vincoli richiesti e dimostra attenzione a chiarezza, modularità e buone pratiche di sviluppo.
