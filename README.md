@@ -67,5 +67,3 @@ Tutto il CSS è stato accuratamente modularizzato in file dedicati (`css/navbar.
 ## 6. Note finali
 
 - Tutti i commenti interni al codice sono scritti in inglese, in linea con le best practice internazionali per progetti tecnici e per facilitare la collaborazione in team eterogenei o futuri sviluppi open source.
-- Il sito è statico, portabile e compatibile con qualsiasi browser moderno.
-- Per modifiche o estensioni, aggiorna direttamente il markup in `index.html` e/o i file CSS dedicati.
